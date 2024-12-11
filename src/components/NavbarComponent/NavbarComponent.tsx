@@ -54,6 +54,18 @@ const NavbarComponent = () => {
               Blog
             </Link>
             <Link
+              href="/ahorro"
+              rel="noopener noreferrer"
+              className={`transition-colors ${
+                pathName === "/ahorro"
+                  ? "text-gray-800 font-medium"
+                  : "text-gray-500 hover:text-gray-800 focus:text-gray-800"
+              }`}
+            >
+              Ahorro
+            </Link>
+
+            <Link
               href="/contact"
               rel="noopener noreferrer"
               className={`transition-colors ${
